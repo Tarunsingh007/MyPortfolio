@@ -1,0 +1,36 @@
+{{>header}}
+<hr style="margin:0px;height:1px; border:none; color:#000; background-color:#000; width:100%">
+<div class="jumbotron bg-light" style="margin:0px">
+	<div class="container"><br>
+		<div class="row">
+			<div class="col-sm-5" style="font-size:100px ">
+				{{title}}
+			</div>
+			<div class="col-sm-7">
+				<div>
+					<form method="post" action="/contact/done">
+					  <div class="form-group">
+					    <label for="name">Name :</label>
+					    <input type="text" class="form-control" id="name"placeholder="Enter Name" name="name" required>
+    				  </div>
+					   <div class="form-group">
+					    <label for="email">Email address :</label>
+					    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" name="email" required>
+					    <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+					  </div>
+					  <div class="form-group">
+					    <label for="subject">Subject :</label>
+					    <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject" required>
+					  </div>
+					  <div class="form-group">
+					    <label for="message">Message :</label>
+					    <textarea class="form-control" name="message" placeholder="Type In Message" required></textarea>			
+					  </div>
+					  <button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{{>footer}}

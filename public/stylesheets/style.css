@@ -1,0 +1,215 @@
+/*Projects*/
+#card{
+  margin-top:10px;
+  padding-left:10px;    
+  box-shadow: 0 3px 6px rgba(100, 220, 145, 151);
+  margin-left:40px;
+  margin-right:40px;
+  text-align: center;
+}
+#card-image img:hover{
+  cursor: pointer;
+  animation-duration: 1s;
+  animation-name:zoom;
+  animation-timing-function: ease;
+}
+@keyframes zoom{
+  from {opacity: 1;}
+  to {opacity:.5;}
+  from{width:100%;}
+  to{width:105%;}
+}
+
+/*RESUME*/
+#heading-resume h2{
+  text-align: center;
+  margin:0px;
+  font-size: 50px;
+  font-weight:bold;
+  left:50%;
+  transform:translate(-80px,-30px);
+  position:relative;
+}
+#skill-div{
+  padding-left:30px;
+  padding-top:60px;
+}
+#info{
+  font-size:20px;
+  overflow: hidden;
+  margin-top:20px;
+  font-weight:bold;
+}
+
+/*INDEX*/
+#navbar{
+	padding:30px;
+	height:80px;
+	font-size:20px;
+  background-color:#E6E6FA;
+}
+#page-footer{
+  height:50px;
+  width:100%;
+}
+#icon{
+  width:50px;
+  margin-left:20px;
+  height:50px;
+  vertical-align: middle;
+}
+#icon_a{
+  color:white;
+  margin-top:50px;
+}
+
+#intro{
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 50px;
+}
+#navbarlink{
+	font-size:30px;
+}
+#dp{
+	border-radius: 50%;
+	overflow: hidden;
+	height: auto;
+  width: 90%;
+}
+#round_a{
+  color:white;
+  position:absolute;
+  left:10%;
+  vertical-align: middle;
+  top:30%;
+  bottom: 30%;
+  right: 10%;
+  text-align: center;
+}
+#round a{
+  color:white;
+  text-decoration:none;
+}
+#round2 a{
+  color:white;
+  text-decoration:none;
+}
+#round3 a{
+  color:white;
+  text-decoration:none;
+}
+#round{
+  padding:60px;
+  font-size:30px; 
+  overflow:hidden;
+  text-align: center;
+  width:100%;
+  height: auto;
+  border: solid rgba(232, 53, 86, 1) 0px;;
+  margin:10px 0px 10px 0px;
+  color:white;
+  background-color: rgba(232, 53, 86, 1);
+}
+#round:hover{
+	opacity: .6;
+	cursor: pointer;
+}
+#round2{
+  padding:60px;
+  font-size:30px; 
+  overflow:hidden;
+  text-align: center;
+  width:100%;
+  height: auto;
+  border: solid rgba(232, 53, 86, 1) 0px;;
+  margin:10px 0px 10px 0px;
+  color:white;
+  background-color: rgba(97, 208, 212, 1);
+}
+#round2:hover{
+	opacity: .6;
+	cursor: pointer;
+}
+#round3{
+  padding:60px;
+  font-size:30px; 
+  overflow:hidden;
+  text-align: center;
+  width:100%;
+  height: auto;
+  border: solid rgba(232, 53, 86, 1) 0px;;
+  margin:10px 0px 10px 0px;
+  color:white;
+  background-color: rgba(209, 201, 38, 1);
+}
+#round3:hover{
+	opacity: .6;
+	cursor: pointer;
+}
+#footer{
+	margin:0px;
+  background-color: rgba(232, 53, 86, 1);
+	height:100px;
+	padding:20px 0px 20px 0px;
+}
+#index{
+	margin-bottom: 0px;
+  background-color: #E6E6FA;
+}
+#dp{
+  animation-name: fade;
+  animation-duration:1s;
+  animation-timing-function:ease-in;
+}
+/*#done{
+  animation-duration:3s;
+  animation-name: disappear;
+}
+@keyframes disappear{
+  display:none;
+}*/
+/*main page*/
+#main a button {
+  background:none;
+  color: black;
+  padding:10px;
+  height:auto;
+  width:300px;
+  text-align:center;
+  color:black;
+  display:block;
+  transform:translate(-150px,-50px);
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  vertical-align: middle;
+  border: 2px solid white;
+}
+#main button:hover{
+   cursor:pointer;
+}
+#main-page-footer{
+  top:60%;
+  position:absolute;
+  left:50%;
+  transform:translate(-100px,0px);
+}
+#main{
+  height:100vh;
+  width:100%;
+  margin:0px;
+  background:url('/images/mainimg.jpg') no-repeat 0px 0px;
+  background-size: cover;
+  border-radius: 0px;
+  position: absolute;
+  color:white;
+  animation-name: fade;
+  animation-duration:3s;
+  animation-timing-function:ease;
+}
+@keyframes fade{
+  from {opacity: 0.1;}
+  to {opacity:1;}
+}
