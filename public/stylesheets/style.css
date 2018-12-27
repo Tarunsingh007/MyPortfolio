@@ -190,7 +190,7 @@
    cursor:pointer;
 }
 #main-page-footer{
-  top:60%;
+  bottom:0;
   position:absolute;
   left:50%;
   transform:translate(-100px,0px);

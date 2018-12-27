@@ -7,7 +7,7 @@ var hbs=require('hbs');
 var handlebars=require('handlebars');
 var indexRouter = require('./routes/index');
 var mongoose=require('mongoose');
-var keys=require('./secret/keys.js');
+var keys=require('./config/keys.js');
 var app = express();
 //setup mongoose
 mongoose.connect(`mongodb://${keys.username}:${keys.password}@ds039145.mlab.com:39145/portfoliocontact`,(err)=>{
