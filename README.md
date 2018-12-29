@@ -1,2 +1,2 @@
 "# MyPortfolio" 
-Live @     #tarunsingh.herokuapp.com
+Live @     http://tarunsingh.herokuapp.com
