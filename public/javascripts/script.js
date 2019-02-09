@@ -11,10 +11,13 @@ function start(){
 	images[0].style.display='block';
 }
 start();
+
 function ss(){
 		if(c<=images.length-1)
 		{
-			reset();images[c].style.display='block';c++;
+			reset();
+			images[c].style.display='block';
+			c++;
 		}
 		else
 			c=0;
