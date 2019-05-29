@@ -1,4 +1,65 @@
+body{
+  margin:0;
+  padding:0;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+  vertical-align: baseline;}
+  
+hr{
+  margin:0px;height:1px; border:none; color:#000; background-color:#000; width:100%
+}
+
 /*Projects*/
+.c1{
+  animation-delay: .5s;
+  animation-duration: 1s;
+}
+.c2{
+  animation-delay: 1s;
+  animation-duration: 1s;
+}
+.c3{
+  animation-delay: 1.5s;
+  animation-duration: 1s;
+}
+.c4{
+  animation-delay: 2s;
+  animation-duration: 1s;
+}
+.c5{
+  animation-delay: 2.5s;
+  animation-duration: 1s;
+}
+.c6{
+  animation-delay: 3s;
+  animation-duration: 1s;
+}
+.c7{
+  animation-delay: 3.5s;
+  animation-duration: 1s;
+}
+.c8{
+  animation-delay: 4s;
+  animation-duration: 1s;
+}
 #card{
   margin-top:2%;
   padding-left:2%;    
@@ -21,11 +82,33 @@
 }
 
 /*RESUME*/
+.row1{
+  animation-delay: .5s;
+  animation-duration: 1s;
+}
+.row2{
+  animation-delay: 1s;
+  animation-duration: 1s;
+}
+.row3{
+  animation-delay: 1.5s;
+  animation-duration: 1s;
+}
+.row4{
+  animation-delay: 2s;
+  animation-duration: 1s;
+}
+#para p{
+  margin:20px;
+}
+#heading-resume{
+  animation-delay: .5s;
+  animation-duration: 1s;
+}
 #heading-resume h2{
   text-align: center;
   margin:0px;
   font-size: 50px;
-  font-weight:bold;
   left:50%;
   transform:translate(-80px,-30px);
   position:relative;
@@ -38,7 +121,8 @@
   font-size:20px;
   overflow: hidden;
   margin-top:20px;
-  font-weight:bold;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 /*INDEX*/
@@ -78,41 +162,48 @@
   color: #4D4D4D;
 }
 #abit{
-  font: normal normal normal 46px/1.2em 'noticia text',serif;
-  font-style: normal;
-  font-variant-ligatures: normal;
-  font-variant-caps: normal;
-  font-variant-numeric: normal;
-  font-variant-east-asian: normal;
-  font-weight: normal;
-  font-stretch: normal;
-  font-size: 46px;
+  animation-delay: .2s;
+  animation-duration: 2s;
   line-height: 1.2em;
-  font-family: "noticia text", serif;
-  color: #4D4D4D;
+  letter-spacing: 1px;
+  color: #888;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 #details{
-  font: normal normal normal 13px/1.4em 'open sans',sans-serif;
-  font-style: normal;
-  font-variant-ligatures: normal;
-  font-variant-caps: normal;
-  font-variant-numeric: normal;
-  font-variant-east-asian: normal;
-  font-weight: normal;
-  font-stretch: normal;
+  font-family: 'Roboto', sans-serif;
+  animation-delay: .5s;
+  justify-content: baseline;
+  animation-duration:2s; 
   font-size: 18px;
-  line-height: 1.3em;
-  font-family: "open sans", sans-serif;
-  color: #4D4D4D;
+  line-height: 30px;
+  letter-spacing: 1px;
 }
 #navbarlink{
 	font-size:40px;
 }
+.images{
+  padding:0;
+  margin:0;
+}
+#image{
+  position: relative;
+  margin:auto;
+  padding:0;
+  max-height:400px;
+  max-width: 400px;
+  min-width: auto;
+  border-radius: 50% 50%;
+}
 #dp{
-	border-radius: 50%;
-	overflow: hidden;
-	height: auto;
-  width: 90%;
+  animation-name: fade;
+  animation-duration:1s;
+  animation-timing-function:ease-in;
+	border-radius: 50% 50%;
+  padding: 0;
+  margin:0;
+	height: 100%;
+  width: 100%;
 }
 #round_a{
   color:white;
@@ -138,6 +229,8 @@
 }
 #round{
   padding:60px;
+  animation-delay: 1s;
+  animation-duration: 1s;
   font-size:30px; 
   overflow:hidden;
   text-align: center;
@@ -152,6 +245,8 @@
 	cursor: pointer;
 }
 #round2{
+  animation-delay: 1s;
+  animation-duration: 1s;
   padding:60px;
   font-size:30px; 
   overflow:hidden;
@@ -167,6 +262,8 @@
 	cursor: pointer;
 }
 #round3{
+  animation-delay: 1s;
+  animation-duration: 1s;
   padding:60px;
   font-size:30px; 
   overflow:hidden;
@@ -191,57 +288,75 @@
 	margin-bottom: 0px;
   background-color: #E6E6FA;
 }
-#dp{
-  animation-name: fade;
-  animation-duration:1s;
-  animation-timing-function:ease-in;
+/* landing page */
+.typo{
+  color:white;
+  font-family: 'Poiret One', cursive;
+  padding-left:13px;
+  overflow: hidden;
 }
-/*#done{
-  animation-duration:3s;
-  animation-name: disappear;
+.typo h1 span{
+  font-size:5vh;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
-@keyframes disappear{
-  display:none;
-}*/
-/*main page*/
-#main a button {
-  background:none;
-  color: black;
-  padding:10px;
-  height:auto;
-  width:300px;
-  text-align:center;
-  color:#f1f1f1;
-  display:block;
-  transform:translate(-150px,-50px);
-  font-size: 50px;
+.explore{
   position: absolute;
-  top: 50%;
+  border: none;
   left:50%;
-  vertical-align: middle;
-  border: 2px solid #000;
+  top:50vh;
+  width:80%;
+  right:50%;
+  transform: translate(-46%,-50%);
+  margin: 0;
+  padding: 0;
 }
-#main button:hover{
-   cursor:pointer;
+.exploreme{
+  padding: 0;
+  border: 2px solid #000;
+  margin:auto;
+}
+.exploreme button:hover{
+  cursor: pointer;
+  background-color: rgba(0,0,0,0.8);
+}
+.exploreme button:focus{
+  outline: none;
+  border:none;
+}
+.explore button{
+  background:none;
+  letter-spacing: 1.5px;
+  border: none;
+  color:white;
+  font-size:8vh;
 }
 #main-page-footer{
-  bottom:0;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
   position:absolute;
+  width:fit-content;
+  padding:10px;
+  margin: 0;
+  letter-spacing: 1.5px;
+  color:white;
+  font-size: 20px;
+  bottom: -30px;
   left:50%;
-  transform:translate(-100px,0px);
+  right:50%;
+  transform: translate(-50%,-50%);
 }
 #main{
-  height:100vh;
-  width:100%;
-  margin:0px;
-  background:url('/images/mainimg.jpg') no-repeat 0px 0px;
+  position: relative;
+  overflow: hidden;
+  min-height:100vh;
+  max-height:100vh;
+  margin:0;
+  padding:20px;
+  background:url('/images/mainimg.jpg') no-repeat 0 0px;
   background-size: cover;
   border-radius: 0px;
-  position: absolute;
-  color:white;
-  animation-name: fade;
-  animation-duration:3s;
-  animation-timing-function:ease;
+  animation:fade 4s ease;
 }
 @keyframes fade{
   from {opacity: 0.1;}

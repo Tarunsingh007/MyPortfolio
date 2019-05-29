@@ -11,7 +11,6 @@ function start(){
 	images[0].style.display='block';
 }
 start();
-
 function ss(){
 		if(c<=images.length-1)
 		{

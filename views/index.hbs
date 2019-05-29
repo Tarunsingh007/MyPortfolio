@@ -2,58 +2,42 @@
 {{#if done}}
 <p id="done">{{done}}</p>
 {{/if}}
-<div class="jumbotron">
-	<div class="container"><br>
+<div class="jumbotron" style="overflow: hidden; min-height:70vh; margin:0;">
+	<div class="container-fluid animated rotateIn"><br>
 		<div class="row">
-			<div class="col-lg-5" id="image">
-				<img class="rounded-circle" id="dp"src="/images/dp1.jpg">
-			</div>
-			<div class="col-lg-5" id="image">
-				<img class="rounded-circle" id="dp" src="/images/dp2.jpg">
-			</div>
-			<div class="col-lg-5" id="image">
-				<img class="rounded-circle" id="dp" src="/images/mainimg.jpg">
+			<div class="col-lg-5 images">
+				<div class="col-lg-12" id="image">
+					<img class="rounded-circle" id="dp"src="/images/dp1.jpg">
+				</div>
+				<div class="col-lg-12" id="image">
+					<img class="rounded-circle" id="dp" src="/images/dp2.jpg">
+				</div>
+				<div class="col-lg-12" id="image">
+					<img class="rounded-circle" id="dp" src="/images/mainimg.jpg">
+				</div>
 			</div>
 			<div class="col-lg-7"  style="display:block;">
 				<div class="row" style="display:block;">
-					<h2  id="intro">Hello !</h2>
-					<h5 id="abit">A Bit About Me...</h5>
+					<h2 id="intro" class="animated slideInRight">Hello !</h2>
+					<h5 id="abit" class="animated slideInLeft">A Bit About Me...</h5>
 				</div>
 				<div class="row">
-					<div class="col-lg-4" id="round">
+					<div class="col-lg-4 animated fadeInUp" id="round">
 						<a href="/resume"><div id="round_a">My Resume</div></a>
 					</div>
-					<div class="col-lg-4" id="round2">
+					<div class="col-lg-4 animated fadeInDown" id="round2">
 						<a href="/projects"><div id="round_a">My Work</div></a>
 					</div>
-					<div class="col-lg-4" id="round3">
+					<div class="col-lg-4 animated fadeInUp" id="round3">
 						<a href="/skills"><div id="round_a">My Skills</div></a>
 					</div>	
-				</div>
-				<div class="row" id="details">
+				</div><br/>
+				<div class="row text-muted animated flipInX" id="details">
 					Hey! I'm Tarun, a student of BIET Jhansi.Currently I'm in Third year ,branch ECE. I love to play around Web apps and believe me its fun ones you have made something you believe you cannot. <br><br>
-					<b id="abit">Happy Coding!</b>
+					<br/><b id="abit">Happy Coding!</b>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<!-- <div id="footer">
-	<div class="row">
-	<div class="col-lg-3" style="background-color: red; height:auto">
-		
-	</div>
-	<div class="col-lg-3" style="background-color:blue; height:20px">
-		
-	</div>
-	<div class="col-lg-3" style="background-color: green; height:20px">
-		
-	</div>
-	<div class="col-lg-3" style="background-color:blue; height:20px">
-		
-	</div>
-</div> -->
-<!-- Footer -->
-
-  <!-- Footer -->
 {{>footer}}
